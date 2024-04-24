@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    user-select: none;
+    font-family: sans-serif
+}
+.taskinputdiv{
+    height: 80px;
+    background-color: rgb(237, 218, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.container{
+
+    position: relative;
+  
+}
+.taskIn{
+    height: 40px;
+    /* width: 325px; */
+    width: 30%;
+    min-width: 180px;
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 20px;
+    box-shadow: 1px 3px 0px 0px rgba(117, 117, 117, 0.84);
+    z-index: 1000;
+    margin-left: 50px;
+}
+.taskIn:focus{
+    outline:2px solid blue;
+}
+.add{
+    background-color: orangered;
+    min-height: 50px;
+    min-width: 50px;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+    padding:0;
+    margin-left: 10px;
+    box-shadow: 1px 3px 0px 0px rgb(117, 117, 117);  z-index: 1000;
+}
+.js-task{
+    min-height: 20px;
+    min-width: 100px;
+    max-width: 400px;
+    background-color: rgb(75, 158, 207);
+    padding: 10px;
+    position: absolute;
+    border: 2px solid rgb(92, 89, 89);
+    border-radius:3px;
+    color: rgb(255, 255, 255);
+    cursor: grab;
+    z-index: 1;
+    
+}
+ 
